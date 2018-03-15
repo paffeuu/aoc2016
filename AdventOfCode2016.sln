@@ -6,12 +6,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aoc1", "aoc1\aoc1.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aoc2", "aoc2\aoc2.csproj", "{1CADD144-7BD6-43C0-B0C0-8C42B4D58CD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aoc3", "aoc3\aoc3.csproj", "{A7CF6BFB-D100-442D-839F-7D5DD8832347}"
+EndProject
 Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3B7862E6-1BD6-45C1-B317-A9F5D6A870CA}.default|Any CPU.ActiveCfg = Debug|Any CPU
 		{3B7862E6-1BD6-45C1-B317-A9F5D6A870CA}.default|Any CPU.Build.0 = Debug|Any CPU
 		{1CADD144-7BD6-43C0-B0C0-8C42B4D58CD7}.default|Any CPU.ActiveCfg = Debug|Any CPU
 		{1CADD144-7BD6-43C0-B0C0-8C42B4D58CD7}.default|Any CPU.Build.0 = Debug|Any CPU
+		{A7CF6BFB-D100-442D-839F-7D5DD8832347}.default|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7CF6BFB-D100-442D-839F-7D5DD8832347}.default|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		default|Any CPU = default|Any CPU

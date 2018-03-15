@@ -10,9 +10,9 @@ namespace aoc2
         {
             var input = GetInput("../../source.txt");     // ../../example.txt lub ../../source.txt
             int[] lastPos = null;
-            for (int i = 0; i < input.Length; i++)
+            foreach (var line in input)
             {
-                lastPos = GetPos(input[i], lastPos);
+                lastPos = GetPos(line, lastPos);
                 Console.Write(GetButton(lastPos) + " ");
             }
         }

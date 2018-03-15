@@ -1,0 +1,6 @@
+C:\Users\pawel\Documents\c#\AdventOfCode2016\aoc3\bin\Debug\aoc3.exe
+C:\Users\pawel\Documents\c#\AdventOfCode2016\aoc3\bin\Debug\aoc3.pdb
+C:\Users\pawel\Documents\c#\AdventOfCode2016\aoc3\obj\Debug\aoc3.csprojResolveAssemblyReference.cache
+C:\Users\pawel\Documents\c#\AdventOfCode2016\aoc3\obj\Debug\aoc3.csproj.CoreCompileInputs.cache
+C:\Users\pawel\Documents\c#\AdventOfCode2016\aoc3\obj\Debug\aoc3.exe
+C:\Users\pawel\Documents\c#\AdventOfCode2016\aoc3\obj\Debug\aoc3.pdb

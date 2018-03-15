@@ -9,18 +9,18 @@ namespace aoc1
         //private static int _north;
         //private static int _east;
 
-        private static bool[,] _xy;
-        private static int lastX;
-        private static int lastY;
+        private static readonly bool[,] Xy;
+        private static int _lastX;
+        private static int _lastY;
 
         private const int SizeOfArray = 601;
 
         static Program()
         {
-            _xy = new bool[SizeOfArray,SizeOfArray];
-            lastX = SizeOfArray/2;
-            lastY = SizeOfArray/2;
-            _xy[lastX, lastY] = true;
+            Xy = new bool[SizeOfArray,SizeOfArray];
+            _lastX = SizeOfArray/2;
+            _lastY = SizeOfArray/2;
+            Xy[_lastX, _lastY] = true;
         }
 
         public static void Main()
@@ -73,29 +73,29 @@ namespace aoc1
                 case 0:
                     for (var i = 1; i <= number; i++)
                     {
-                        if (_xy[lastX, --lastY]) return new[] {lastX, lastY};
-                        _xy[lastX, lastY] = true;
+                        if (Xy[_lastX, --_lastY]) return new[] {_lastX, _lastY};
+                        Xy[_lastX, _lastY] = true;
                     }
                     break;
                 case 1:
                     for (var i = 1; i <= number; i++)
                     {
-                        if (_xy[++lastX, lastY]) return new[] {lastX, lastY};
-                        _xy[lastX, lastY] = true;
+                        if (Xy[++_lastX, _lastY]) return new[] {_lastX, _lastY};
+                        Xy[_lastX, _lastY] = true;
                     }
                     break;
                 case 2:
                     for (var i = 1; i <= number; i++)
                     {
-                        if (_xy[lastX, ++lastY]) return new[] {lastX, lastY};
-                        _xy[lastX, lastY] = true;
+                        if (Xy[_lastX, ++_lastY]) return new[] {_lastX, _lastY};
+                        Xy[_lastX, _lastY] = true;
                     }
                     break;
                 case 3:
                     for (var i = 1; i <= number; i++)
                     {
-                        if (_xy[--lastX, lastY]) return new[] {lastX, lastY};
-                        _xy[lastX, lastY] = true;
+                        if (Xy[--_lastX, _lastY]) return new[] {_lastX, _lastY};
+                        Xy[_lastX, _lastY] = true;
                     }
                     break;
             }
