@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aoc4", "aoc4\aoc4.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aoc5", "aoc5\aoc5.csproj", "{154A1C44-3882-4809-A205-B7D6C1C273BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aoc6", "aoc6\aoc6.csproj", "{98106D18-43C1-4B34-970C-E4698821690D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aoc7", "aoc7\aoc7.csproj", "{DBF4E9D3-7A25-4AE7-BE45-29D51F694225}"
+EndProject
 Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3B7862E6-1BD6-45C1-B317-A9F5D6A870CA}.default|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,6 +28,10 @@ Global
 		{E0934C24-4B22-451B-882B-DFC1D5DB29BC}.default|Any CPU.Build.0 = Debug|Any CPU
 		{154A1C44-3882-4809-A205-B7D6C1C273BD}.default|Any CPU.ActiveCfg = Debug|Any CPU
 		{154A1C44-3882-4809-A205-B7D6C1C273BD}.default|Any CPU.Build.0 = Debug|Any CPU
+		{98106D18-43C1-4B34-970C-E4698821690D}.default|Any CPU.ActiveCfg = Debug|Any CPU
+		{98106D18-43C1-4B34-970C-E4698821690D}.default|Any CPU.Build.0 = Debug|Any CPU
+		{DBF4E9D3-7A25-4AE7-BE45-29D51F694225}.default|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF4E9D3-7A25-4AE7-BE45-29D51F694225}.default|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		default|Any CPU = default|Any CPU

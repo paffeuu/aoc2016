@@ -6,11 +6,13 @@ namespace aoc6
 {
     internal static class Program
     {
+        //private const string Example = "../../example.txt";
+        private const string Input = "../../input.txt";
         private const int Shift = 97;
         
         public static void Main(string[] args)
         {
-            var input = GetInput("../../input.txt");
+            var input = GetInput(Input);
             var stringBuilder = new StringBuilder();
             for (int i = 0; i < input[0].Length; i++)
                 //stringBuilder.Append(CheckMostFrequentChar(input, i));
@@ -27,6 +29,7 @@ namespace aoc6
             return chars;
         }
 
+/*
         private static char CheckMostFrequentChar(char[][] input, int i)
         {
             var frequentChars = new int[26];
@@ -42,6 +45,7 @@ namespace aoc6
                 }
             return (char)(index + Shift);
         }
+*/
 
         private static char CheckLeastFrequentChar(char[][] input, int i)
         {

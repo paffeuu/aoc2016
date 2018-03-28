@@ -5,7 +5,7 @@ namespace aoc5
     internal static class Program
     {
         private const string Input = "abbhdwsy";
-        private const string Example = "abc";
+        //private const string Example = "abc";
         
         public static void Main(string[] args)
         {
